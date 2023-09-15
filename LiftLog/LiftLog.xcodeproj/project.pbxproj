@@ -1,0 +1,678 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9F4A7AD329EC691E007125BA /* LiftLogApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F4A7AD229EC691E007125BA /* LiftLogApp.swift */; };
+		9F4A7AD529EC691E007125BA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F4A7AD429EC691E007125BA /* ContentView.swift */; };
+		9F4A7AD729EC6921007125BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F4A7AD629EC6921007125BA /* Assets.xcassets */; };
+		9F4A7ADA29EC6921007125BA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F4A7AD929EC6921007125BA /* Preview Assets.xcassets */; };
+		9F4A7AE429EC6922007125BA /* LiftLogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F4A7AE329EC6922007125BA /* LiftLogTests.swift */; };
+		9F4A7AEE29EC6922007125BA /* LiftLogUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F4A7AED29EC6922007125BA /* LiftLogUITests.swift */; };
+		9F4A7AF029EC6922007125BA /* LiftLogUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F4A7AEF29EC6922007125BA /* LiftLogUITestsLaunchTests.swift */; };
+		B70563CC29ED81DF00B220D4 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B70563CB29ED81DF00B220D4 /* UserData.swift */; };
+		B70563CD29ED81DF00B220D4 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B70563CB29ED81DF00B220D4 /* UserData.swift */; };
+		B70563CE29ED81DF00B220D4 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B70563CB29ED81DF00B220D4 /* UserData.swift */; };
+		B70563D029ED8CAB00B220D4 /* NutritionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B70563CF29ED8CAB00B220D4 /* NutritionView.swift */; };
+		B70563D129ED8CAB00B220D4 /* NutritionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B70563CF29ED8CAB00B220D4 /* NutritionView.swift */; };
+		B70563D229ED8CAB00B220D4 /* NutritionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B70563CF29ED8CAB00B220D4 /* NutritionView.swift */; };
+		B72A9F0C2A001CA600591043 /* MealDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7386EBF29F5C2730089DCD8 /* MealDetail.swift */; };
+		B72A9F0D2A001CA600591043 /* MealDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7386EBF29F5C2730089DCD8 /* MealDetail.swift */; };
+		B72A9F0E2A001CA900591043 /* ActivityDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7CD025029F44BD700B52C15 /* ActivityDetail.swift */; };
+		B72A9F0F2A001CA900591043 /* ActivityDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7CD025029F44BD700B52C15 /* ActivityDetail.swift */; };
+		B72A9F122A0027EE00591043 /* HealthKitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72A9F112A0027EE00591043 /* HealthKitView.swift */; };
+		B7386EBC29F5C1880089DCD8 /* MealEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7386EBB29F5C1880089DCD8 /* MealEditor.swift */; };
+		B7386EBD29F5C1890089DCD8 /* MealEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7386EBB29F5C1880089DCD8 /* MealEditor.swift */; };
+		B7386EBE29F5C1890089DCD8 /* MealEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7386EBB29F5C1880089DCD8 /* MealEditor.swift */; };
+		B7386EC029F5C2730089DCD8 /* MealDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7386EBF29F5C2730089DCD8 /* MealDetail.swift */; };
+		B74592B829EE5F60001F7E11 /* ActivityEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74592B729EE5F60001F7E11 /* ActivityEditor.swift */; };
+		B74592B929EE5F60001F7E11 /* ActivityEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74592B729EE5F60001F7E11 /* ActivityEditor.swift */; };
+		B74592BA29EE5F60001F7E11 /* ActivityEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74592B729EE5F60001F7E11 /* ActivityEditor.swift */; };
+		B74592BC29EF15E8001F7E11 /* ThemeViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74592BB29EF15E8001F7E11 /* ThemeViews.swift */; };
+		B74592BD29EF15E8001F7E11 /* ThemeViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74592BB29EF15E8001F7E11 /* ThemeViews.swift */; };
+		B74592BE29EF15E8001F7E11 /* ThemeViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74592BB29EF15E8001F7E11 /* ThemeViews.swift */; };
+		B75372332A00449A00B4873D /* LoginSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = B75372322A00449A00B4873D /* LoginSettings.swift */; };
+		B75372362A00708E00B4873D /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B75372352A00708E00B4873D /* LoginView.swift */; };
+		B753723A2A00BD1300B4873D /* ActivityDetailViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = B75372392A00BD1300B4873D /* ActivityDetailViews.swift */; };
+		B7CD025129F44BD700B52C15 /* ActivityDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7CD025029F44BD700B52C15 /* ActivityDetail.swift */; };
+		B7F4804E29EE44CA00ABE25E /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F4804D29EE44CA00ABE25E /* ActivityView.swift */; };
+		B7F4804F29EE44CA00ABE25E /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F4804D29EE44CA00ABE25E /* ActivityView.swift */; };
+		B7F4805029EE44CA00ABE25E /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F4804D29EE44CA00ABE25E /* ActivityView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9F4A7AE029EC6922007125BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F4A7AC729EC691E007125BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F4A7ACE29EC691E007125BA;
+			remoteInfo = LiftLog;
+		};
+		9F4A7AEA29EC6922007125BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F4A7AC729EC691E007125BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F4A7ACE29EC691E007125BA;
+			remoteInfo = LiftLog;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9F4A7ACF29EC691E007125BA /* LiftLog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LiftLog.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F4A7AD229EC691E007125BA /* LiftLogApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiftLogApp.swift; sourceTree = "<group>"; };
+		9F4A7AD429EC691E007125BA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9F4A7AD629EC6921007125BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9F4A7AD929EC6921007125BA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9F4A7ADF29EC6922007125BA /* LiftLogTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LiftLogTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F4A7AE329EC6922007125BA /* LiftLogTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiftLogTests.swift; sourceTree = "<group>"; };
+		9F4A7AE929EC6922007125BA /* LiftLogUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LiftLogUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F4A7AED29EC6922007125BA /* LiftLogUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiftLogUITests.swift; sourceTree = "<group>"; };
+		9F4A7AEF29EC6922007125BA /* LiftLogUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiftLogUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B70563CB29ED81DF00B220D4 /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		B70563CF29ED8CAB00B220D4 /* NutritionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritionView.swift; sourceTree = "<group>"; };
+		B72A9F112A0027EE00591043 /* HealthKitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitView.swift; sourceTree = "<group>"; };
+		B7386EBB29F5C1880089DCD8 /* MealEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealEditor.swift; sourceTree = "<group>"; };
+		B7386EBF29F5C2730089DCD8 /* MealDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealDetail.swift; sourceTree = "<group>"; };
+		B74592B729EE5F60001F7E11 /* ActivityEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityEditor.swift; sourceTree = "<group>"; };
+		B74592BB29EF15E8001F7E11 /* ThemeViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeViews.swift; sourceTree = "<group>"; };
+		B75372322A00449A00B4873D /* LoginSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginSettings.swift; sourceTree = "<group>"; };
+		B75372342A00649900B4873D /* LiftLog.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LiftLog.entitlements; sourceTree = "<group>"; };
+		B75372352A00708E00B4873D /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		B75372392A00BD1300B4873D /* ActivityDetailViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityDetailViews.swift; sourceTree = "<group>"; };
+		B7CD025029F44BD700B52C15 /* ActivityDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityDetail.swift; sourceTree = "<group>"; };
+		B7DA138529FF08E500BF7D92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		B7F4804D29EE44CA00ABE25E /* ActivityView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9F4A7ACC29EC691E007125BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F4A7ADC29EC6922007125BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F4A7AE629EC6922007125BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9F4A7AC629EC691E007125BA = {
+			isa = PBXGroup;
+			children = (
+				9F4A7AD129EC691E007125BA /* LiftLog */,
+				9F4A7AE229EC6922007125BA /* LiftLogTests */,
+				9F4A7AEC29EC6922007125BA /* LiftLogUITests */,
+				9F4A7AD029EC691E007125BA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9F4A7AD029EC691E007125BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F4A7ACF29EC691E007125BA /* LiftLog.app */,
+				9F4A7ADF29EC6922007125BA /* LiftLogTests.xctest */,
+				9F4A7AE929EC6922007125BA /* LiftLogUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9F4A7AD129EC691E007125BA /* LiftLog */ = {
+			isa = PBXGroup;
+			children = (
+				B75372342A00649900B4873D /* LiftLog.entitlements */,
+				B7DA138529FF08E500BF7D92 /* Info.plist */,
+				9F4A7AD229EC691E007125BA /* LiftLogApp.swift */,
+				B75372352A00708E00B4873D /* LoginView.swift */,
+				B72A9F112A0027EE00591043 /* HealthKitView.swift */,
+				9F4A7AD429EC691E007125BA /* ContentView.swift */,
+				9F4A7AD629EC6921007125BA /* Assets.xcassets */,
+				9F4A7AD829EC6921007125BA /* Preview Content */,
+				B70563CB29ED81DF00B220D4 /* UserData.swift */,
+				B75372322A00449A00B4873D /* LoginSettings.swift */,
+				B7CD025029F44BD700B52C15 /* ActivityDetail.swift */,
+				B75372392A00BD1300B4873D /* ActivityDetailViews.swift */,
+				B74592B729EE5F60001F7E11 /* ActivityEditor.swift */,
+				B7F4804D29EE44CA00ABE25E /* ActivityView.swift */,
+				B7386EBB29F5C1880089DCD8 /* MealEditor.swift */,
+				B7386EBF29F5C2730089DCD8 /* MealDetail.swift */,
+				B70563CF29ED8CAB00B220D4 /* NutritionView.swift */,
+				B74592BB29EF15E8001F7E11 /* ThemeViews.swift */,
+			);
+			path = LiftLog;
+			sourceTree = "<group>";
+		};
+		9F4A7AD829EC6921007125BA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9F4A7AD929EC6921007125BA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9F4A7AE229EC6922007125BA /* LiftLogTests */ = {
+			isa = PBXGroup;
+			children = (
+				9F4A7AE329EC6922007125BA /* LiftLogTests.swift */,
+			);
+			path = LiftLogTests;
+			sourceTree = "<group>";
+		};
+		9F4A7AEC29EC6922007125BA /* LiftLogUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9F4A7AED29EC6922007125BA /* LiftLogUITests.swift */,
+				9F4A7AEF29EC6922007125BA /* LiftLogUITestsLaunchTests.swift */,
+			);
+			path = LiftLogUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9F4A7ACE29EC691E007125BA /* LiftLog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F4A7AF329EC6922007125BA /* Build configuration list for PBXNativeTarget "LiftLog" */;
+			buildPhases = (
+				9F4A7ACB29EC691E007125BA /* Sources */,
+				9F4A7ACC29EC691E007125BA /* Frameworks */,
+				9F4A7ACD29EC691E007125BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LiftLog;
+			productName = LiftLog;
+			productReference = 9F4A7ACF29EC691E007125BA /* LiftLog.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9F4A7ADE29EC6922007125BA /* LiftLogTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F4A7AF629EC6922007125BA /* Build configuration list for PBXNativeTarget "LiftLogTests" */;
+			buildPhases = (
+				9F4A7ADB29EC6922007125BA /* Sources */,
+				9F4A7ADC29EC6922007125BA /* Frameworks */,
+				9F4A7ADD29EC6922007125BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F4A7AE129EC6922007125BA /* PBXTargetDependency */,
+			);
+			name = LiftLogTests;
+			productName = LiftLogTests;
+			productReference = 9F4A7ADF29EC6922007125BA /* LiftLogTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9F4A7AE829EC6922007125BA /* LiftLogUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F4A7AF929EC6922007125BA /* Build configuration list for PBXNativeTarget "LiftLogUITests" */;
+			buildPhases = (
+				9F4A7AE529EC6922007125BA /* Sources */,
+				9F4A7AE629EC6922007125BA /* Frameworks */,
+				9F4A7AE729EC6922007125BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F4A7AEB29EC6922007125BA /* PBXTargetDependency */,
+			);
+			name = LiftLogUITests;
+			productName = LiftLogUITests;
+			productReference = 9F4A7AE929EC6922007125BA /* LiftLogUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9F4A7AC729EC691E007125BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					9F4A7ACE29EC691E007125BA = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					9F4A7ADE29EC6922007125BA = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 9F4A7ACE29EC691E007125BA;
+					};
+					9F4A7AE829EC6922007125BA = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 9F4A7ACE29EC691E007125BA;
+					};
+				};
+			};
+			buildConfigurationList = 9F4A7ACA29EC691E007125BA /* Build configuration list for PBXProject "LiftLog" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9F4A7AC629EC691E007125BA;
+			productRefGroup = 9F4A7AD029EC691E007125BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9F4A7ACE29EC691E007125BA /* LiftLog */,
+				9F4A7ADE29EC6922007125BA /* LiftLogTests */,
+				9F4A7AE829EC6922007125BA /* LiftLogUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9F4A7ACD29EC691E007125BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F4A7ADA29EC6921007125BA /* Preview Assets.xcassets in Resources */,
+				9F4A7AD729EC6921007125BA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F4A7ADD29EC6922007125BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F4A7AE729EC6922007125BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9F4A7ACB29EC691E007125BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B74592B829EE5F60001F7E11 /* ActivityEditor.swift in Sources */,
+				B7CD025129F44BD700B52C15 /* ActivityDetail.swift in Sources */,
+				B70563CC29ED81DF00B220D4 /* UserData.swift in Sources */,
+				B753723A2A00BD1300B4873D /* ActivityDetailViews.swift in Sources */,
+				B7F4804E29EE44CA00ABE25E /* ActivityView.swift in Sources */,
+				9F4A7AD529EC691E007125BA /* ContentView.swift in Sources */,
+				9F4A7AD329EC691E007125BA /* LiftLogApp.swift in Sources */,
+				B7386EBC29F5C1880089DCD8 /* MealEditor.swift in Sources */,
+				B75372332A00449A00B4873D /* LoginSettings.swift in Sources */,
+				B7386EC029F5C2730089DCD8 /* MealDetail.swift in Sources */,
+				B72A9F122A0027EE00591043 /* HealthKitView.swift in Sources */,
+				B75372362A00708E00B4873D /* LoginView.swift in Sources */,
+				B74592BC29EF15E8001F7E11 /* ThemeViews.swift in Sources */,
+				B70563D029ED8CAB00B220D4 /* NutritionView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F4A7ADB29EC6922007125BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7386EBD29F5C1890089DCD8 /* MealEditor.swift in Sources */,
+				B70563CD29ED81DF00B220D4 /* UserData.swift in Sources */,
+				B7F4804F29EE44CA00ABE25E /* ActivityView.swift in Sources */,
+				9F4A7AE429EC6922007125BA /* LiftLogTests.swift in Sources */,
+				B74592B929EE5F60001F7E11 /* ActivityEditor.swift in Sources */,
+				B72A9F0E2A001CA900591043 /* ActivityDetail.swift in Sources */,
+				B72A9F0C2A001CA600591043 /* MealDetail.swift in Sources */,
+				B74592BD29EF15E8001F7E11 /* ThemeViews.swift in Sources */,
+				B70563D129ED8CAB00B220D4 /* NutritionView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F4A7AE529EC6922007125BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B74592BA29EE5F60001F7E11 /* ActivityEditor.swift in Sources */,
+				B70563CE29ED81DF00B220D4 /* UserData.swift in Sources */,
+				B7F4805029EE44CA00ABE25E /* ActivityView.swift in Sources */,
+				B72A9F0D2A001CA600591043 /* MealDetail.swift in Sources */,
+				9F4A7AF029EC6922007125BA /* LiftLogUITestsLaunchTests.swift in Sources */,
+				9F4A7AEE29EC6922007125BA /* LiftLogUITests.swift in Sources */,
+				B7386EBE29F5C1890089DCD8 /* MealEditor.swift in Sources */,
+				B72A9F0F2A001CA900591043 /* ActivityDetail.swift in Sources */,
+				B74592BE29EF15E8001F7E11 /* ThemeViews.swift in Sources */,
+				B70563D229ED8CAB00B220D4 /* NutritionView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9F4A7AE129EC6922007125BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F4A7ACE29EC691E007125BA /* LiftLog */;
+			targetProxy = 9F4A7AE029EC6922007125BA /* PBXContainerItemProxy */;
+		};
+		9F4A7AEB29EC6922007125BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F4A7ACE29EC691E007125BA /* LiftLog */;
+			targetProxy = 9F4A7AEA29EC6922007125BA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9F4A7AF129EC6922007125BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9F4A7AF229EC6922007125BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9F4A7AF429EC6922007125BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = LiftLog/LiftLog.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LiftLog/Preview Content\"";
+				DEVELOPMENT_TEAM = HT3R22X7KW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LiftLog/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app uses the camera to capture photos to add to your meals and activities";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "This app uses HealthKit to store your activities, water, and caloric intake values in the Health App";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "This app uses HealthKit to store your activities, water, and caloric intake values in the Health App";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fourthreesix.LiftLog;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9F4A7AF529EC6922007125BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = LiftLog/LiftLog.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LiftLog/Preview Content\"";
+				DEVELOPMENT_TEAM = HT3R22X7KW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LiftLog/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app uses the camera to capture photos to add to your meals and activities";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "This app uses HealthKit to store your activities, water, and caloric intake values in the Health App";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "This app uses HealthKit to store your activities, water, and caloric intake values in the Health App";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fourthreesix.LiftLog;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9F4A7AF729EC6922007125BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fourthreesix.LiftLogTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LiftLog.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LiftLog";
+			};
+			name = Debug;
+		};
+		9F4A7AF829EC6922007125BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fourthreesix.LiftLogTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LiftLog.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LiftLog";
+			};
+			name = Release;
+		};
+		9F4A7AFA29EC6922007125BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fourthreesix.LiftLogUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LiftLog;
+			};
+			name = Debug;
+		};
+		9F4A7AFB29EC6922007125BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fourthreesix.LiftLogUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LiftLog;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9F4A7ACA29EC691E007125BA /* Build configuration list for PBXProject "LiftLog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F4A7AF129EC6922007125BA /* Debug */,
+				9F4A7AF229EC6922007125BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F4A7AF329EC6922007125BA /* Build configuration list for PBXNativeTarget "LiftLog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F4A7AF429EC6922007125BA /* Debug */,
+				9F4A7AF529EC6922007125BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F4A7AF629EC6922007125BA /* Build configuration list for PBXNativeTarget "LiftLogTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F4A7AF729EC6922007125BA /* Debug */,
+				9F4A7AF829EC6922007125BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F4A7AF929EC6922007125BA /* Build configuration list for PBXNativeTarget "LiftLogUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F4A7AFA29EC6922007125BA /* Debug */,
+				9F4A7AFB29EC6922007125BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9F4A7AC729EC691E007125BA /* Project object */;
+}
